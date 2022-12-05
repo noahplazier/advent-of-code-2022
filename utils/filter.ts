@@ -1,0 +1,1 @@
+export const filterDuplicates = <T>(el: T, i: number, l: Array<T>): boolean => !l.slice(i + 1).includes(el)
