@@ -37,5 +37,5 @@ const matchScores = pairs.map(compareMovesPt1).reduce(sum)
 console.log(matchScores)
 
 // Part 2
-const res = pairs.map(compareMovesPt2).reduce((acc, curr) => acc + curr)
+const res = pairs.map(compareMovesPt2).reduce(sum)
 console.log(res)
